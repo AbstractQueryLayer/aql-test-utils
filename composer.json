@@ -18,7 +18,6 @@
     "php": ">=8.4",
     "phpunit/phpunit": "^11.2",
     "ifcastle/di": "^0.6.0",
-    "ifcastle/aql-storage": "^0.1.0",
     "ifcastle/aql-entity": "^0.1.0",
     "ifcastle/aql-executor": "^0.1.0",
     "ifcastle/aql-generator": "^0.1.0"
@@ -29,6 +28,7 @@
     }
   },
   "suggest": {
+    "ifcastle/aql-storage": "For storage mock classes",
     "ifcastle/aql-sqlite": "For SQLite-based tests"
   }
 }
