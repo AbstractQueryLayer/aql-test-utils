@@ -18,9 +18,7 @@
     "php": ">=8.4",
     "phpunit/phpunit": "^11.2",
     "ifcastle/di": "^0.6.0",
-    "ifcastle/aql-entity": "^0.1.0",
-    "ifcastle/aql-executor": "^0.1.0",
-    "ifcastle/aql-generator": "^0.1.0"
+    "ifcastle/aql-entity": "^0.1.0"
   },
   "autoload": {
     "psr-4": {
@@ -29,6 +27,8 @@
   },
   "suggest": {
     "ifcastle/aql-storage": "For storage mock classes",
+    "ifcastle/aql-executor": "For executor tests and dummies",
+    "ifcastle/aql-generator": "For DDL generator tests",
     "ifcastle/aql-sqlite": "For SQLite-based tests"
   }
 }
